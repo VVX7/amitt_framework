@@ -312,11 +312,9 @@ class AmittStix:
         """
         incidents = self.incidents.itertuples()
         for i in incidents:
-            print(i)
             if i.id == "I00000":
                 continue
             external_references = []
-            print(i.type)
             if i.type == "incident":
                 refs = self.parse_xlsx_reference_tuples(i.references)
                 for ref in refs:
@@ -359,7 +357,6 @@ class AmittStix:
             if i.id == "I00000":
                 continue
             external_references = []
-            print(i.type)
             if i.type == "campaign":
                 refs = self.parse_xlsx_reference_tuples(i.references)
                 for ref in refs:
@@ -403,7 +400,6 @@ class AmittStix:
             if i.id == "I00000":
                 continue
             external_references = []
-            print(i.type)
             if i.type == "threat-actor":
                 refs = self.parse_xlsx_reference_tuples(i.references)
                 for ref in refs:
