@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--48185990-8905-42da-8ffb-ab412741d481",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--f7a4ed07-6a53-4887-b005-34804be1a36a",
+            "created_by_ref": "identity--a5a9745d-e74d-4219-8e68-e76635e22c4d",
+            "created": "2019-11-19T03:31:45.904Z",
+            "modified": "2019-11-19T03:31:45.904Z",
+            "name": "Memes",
+            "description": "Memes are one of the most important single artefact types in all of computational propaganda. Memes in this framework denotes the narrow image-based definition. But that naming is no accident, as these items have most of the important properties of Dawkins' original conception as a self-replicating unit of culture. Memes pull together reference and commentary; image and narrative; emotion and message. Memes are a powerful tool and the heart of modern influence campaigns.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-content"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0021.md",
+                    "external_id": "T0021"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--2b04b255-1c05-4cbc-aafe-013fb5980a6b"
+            ],
+            "x_mitre_platforms": [
+                [
+                    "Cyber",
+                    "Physical"
+                ]
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

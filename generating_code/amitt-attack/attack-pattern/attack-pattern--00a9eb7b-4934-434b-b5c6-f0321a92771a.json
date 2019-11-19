@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--5d48b925-d02d-44f9-a4bc-93532216dd7a",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--00a9eb7b-4934-434b-b5c6-f0321a92771a",
+            "created_by_ref": "identity--a5a9745d-e74d-4219-8e68-e76635e22c4d",
+            "created": "2019-11-19T03:31:45.903Z",
+            "modified": "2019-11-19T03:31:45.903Z",
+            "name": "Paid targeted ads",
+            "description": "Create or fund advertisements targeted at specific populations",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "microtargeting"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0018.md",
+                    "external_id": "T0018"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--2b04b255-1c05-4cbc-aafe-013fb5980a6b"
+            ],
+            "x_mitre_platforms": [
+                [
+                    "Cyber",
+                    "Physical"
+                ]
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

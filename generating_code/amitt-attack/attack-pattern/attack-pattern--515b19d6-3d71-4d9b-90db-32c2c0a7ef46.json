@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--8e98b20b-8d1e-4526-a7de-0ca2a10405ba",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--515b19d6-3d71-4d9b-90db-32c2c0a7ef46",
+            "created_by_ref": "identity--a5a9745d-e74d-4219-8e68-e76635e22c4d",
+            "created": "2019-11-19T03:31:45.905Z",
+            "modified": "2019-11-19T03:31:45.905Z",
+            "name": "Distort facts",
+            "description": "Change, twist, or exaggerate existing facts to construct a narrative that differs from reality. Examples: images and ideas can be distorted by being placed in an improper content",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-content"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0023.md",
+                    "external_id": "T0023"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--2b04b255-1c05-4cbc-aafe-013fb5980a6b"
+            ],
+            "x_mitre_platforms": [
+                [
+                    "Cyber",
+                    "Physical"
+                ]
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

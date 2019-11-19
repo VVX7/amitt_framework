@@ -1,0 +1,16 @@
+{
+    "type": "bundle",
+    "id": "bundle--b43196a0-859d-4896-8709-adc27f8423b0",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "relationship",
+            "id": "relationship--cdd32da1-e756-4654-a0b8-84ea1797af90",
+            "created": "2019-11-19T03:31:45.963Z",
+            "modified": "2019-11-19T03:31:45.963Z",
+            "relationship_type": "uses",
+            "source_ref": "campaign--af69ff17-f9f1-47b2-8d07-1ba1da70ab18",
+            "target_ref": "attack-pattern--6498dfad-9e30-4ef9-a6b7-3619dc385f70"
+        }
+    ]
+}

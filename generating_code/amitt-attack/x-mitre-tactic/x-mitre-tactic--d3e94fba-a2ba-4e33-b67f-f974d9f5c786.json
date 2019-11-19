@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--e6fd4507-3799-4fdd-a09d-54214856b5dd",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--d3e94fba-a2ba-4e33-b67f-f974d9f5c786",
+            "created_by_ref": "identity--a5a9745d-e74d-4219-8e68-e76635e22c4d",
+            "created": "2019-11-19T03:31:45.898Z",
+            "modified": "2019-11-19T03:31:45.898Z",
+            "name": "Measure Effectiveness",
+            "description": "Measure effectiveness of incident, for use in planning future events",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/tactics/TA12.md",
+                    "external_id": "TA12"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--2b04b255-1c05-4cbc-aafe-013fb5980a6b"
+            ],
+            "x_mitre_shortname": "measure-effectiveness"
+        }
+    ]
+}

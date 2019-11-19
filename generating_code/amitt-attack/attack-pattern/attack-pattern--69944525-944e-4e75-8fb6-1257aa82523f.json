@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--a57b88b6-0d20-4736-800c-a901252902b8",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--69944525-944e-4e75-8fb6-1257aa82523f",
+            "created_by_ref": "identity--a5a9745d-e74d-4219-8e68-e76635e22c4d",
+            "created": "2019-11-19T03:31:45.909Z",
+            "modified": "2019-11-19T03:31:45.909Z",
+            "name": "Twitter",
+            "description": "Use Twitter as a narrative dissemination channel",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "channel-selection"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0038.md",
+                    "external_id": "T0038"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--2b04b255-1c05-4cbc-aafe-013fb5980a6b"
+            ],
+            "x_mitre_platforms": [
+                [
+                    "Cyber",
+                    "Physical"
+                ]
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

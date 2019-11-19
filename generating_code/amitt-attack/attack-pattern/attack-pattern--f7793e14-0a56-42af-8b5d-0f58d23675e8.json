@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--5f9bc186-5d6a-4655-98af-f3693e809100",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--f7793e14-0a56-42af-8b5d-0f58d23675e8",
+            "created_by_ref": "identity--a5a9745d-e74d-4219-8e68-e76635e22c4d",
+            "created": "2019-11-19T03:31:45.909Z",
+            "modified": "2019-11-19T03:31:45.909Z",
+            "name": "Facebook",
+            "description": "Use Facebook as a narrative dissemination channel",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "channel-selection"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0037.md",
+                    "external_id": "T0037"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--2b04b255-1c05-4cbc-aafe-013fb5980a6b"
+            ],
+            "x_mitre_platforms": [
+                [
+                    "Cyber",
+                    "Physical"
+                ]
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

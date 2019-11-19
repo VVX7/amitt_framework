@@ -1,0 +1,24 @@
+{
+    "type": "bundle",
+    "id": "bundle--69895bc7-d1e9-418f-bb8d-5ca5d6f4db12",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "x-amitt-incident",
+            "id": "x-amitt-incident--fe90663f-8a8f-40ba-9696-109a460238e5",
+            "created": "2019-02-24T00:00:00.000Z",
+            "modified": "2019-11-19T03:31:45.929Z",
+            "name": "Kavanaugh",
+            "description": "Before the Senate SCOTUS confirmation hearings of Brett Kavanaugh, professor Christine Blasey Ford--first anonymously, then publicly--accused Kavanaugh of inappropriate or criminal sexual behavior. Amplified by Russian trolls Right wing operatives first tried to doxx Ford, then to discredit her. Many observers suggest that the Kavanaugh hearings were the largest anti-US Russian online operation for months. ",
+            "first_seen": "2018-01-01T00:00:00Z",
+            "external_references": [
+                {
+                    "source_name": "qz.com",
+                    "url": "https://qz.com/1409102/russian-trolls-and-bots-are-flooding-twitter-with-ford-kavanaugh-disinformation/",
+                    "external_id": "qz.com: trolls and bots are flooding twitter"
+                }
+            ],
+            "x_identified_via": "OII"
+        }
+    ]
+}

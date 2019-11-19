@@ -1,0 +1,24 @@
+{
+    "type": "bundle",
+    "id": "bundle--c26d2cdb-7736-422a-9aab-0e1e8e3caf4e",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "x-amitt-incident",
+            "id": "x-amitt-incident--587de850-1bf5-430f-9d80-3dcac3b3fcda",
+            "created": "2019-02-24T00:00:00.000Z",
+            "modified": "2019-11-19T03:31:45.920Z",
+            "name": "Blacktivists facebook group",
+            "description": "IRA created fake @blacktivists facebook group and twitter account. ",
+            "first_seen": "2016-01-01T00:00:00Z",
+            "external_references": [
+                {
+                    "source_name": "CNN",
+                    "url": "https://money.cnn.com/2017/09/28/media/blacktivist-russia-facebook-twitter/index.html",
+                    "external_id": "CNN 2017-09-28"
+                }
+            ],
+            "x_identified_via": ""
+        }
+    ]
+}

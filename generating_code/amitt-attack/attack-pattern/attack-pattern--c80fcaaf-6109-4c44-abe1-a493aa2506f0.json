@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--c405c3b3-010f-4acc-99ae-5d63d6f2c0b5",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--c80fcaaf-6109-4c44-abe1-a493aa2506f0",
+            "created_by_ref": "identity--a5a9745d-e74d-4219-8e68-e76635e22c4d",
+            "created": "2019-11-19T03:31:45.905Z",
+            "modified": "2019-11-19T03:31:45.905Z",
+            "name": "Leak altered documents",
+            "description": "Obtain documents (eg by theft or leak), then alter and release, possibly among factual documents/sources. \n\nExample (2019) DFRLab report \"Secondary Infektion\u201d highlights incident with key asset being a forged \u201cletter\u201d created by the operation to provide ammunition for far-right forces in Europe ahead of the election.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-content"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0025.md",
+                    "external_id": "T0025"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--2b04b255-1c05-4cbc-aafe-013fb5980a6b"
+            ],
+            "x_mitre_platforms": [
+                [
+                    "Cyber",
+                    "Physical"
+                ]
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

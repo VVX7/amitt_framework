@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--27d980ee-ce6c-4c1a-8988-ac081e280b56",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--97a65caf-0823-4e01-9917-3bc18282d741",
+            "created_by_ref": "identity--a5a9745d-e74d-4219-8e68-e76635e22c4d",
+            "created": "2019-11-19T03:31:45.897Z",
+            "modified": "2019-11-19T03:31:45.897Z",
+            "name": "Develop Content",
+            "description": "Create and acquire content used in incident",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/tactics/TA06.md",
+                    "external_id": "TA06"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--2b04b255-1c05-4cbc-aafe-013fb5980a6b"
+            ],
+            "x_mitre_shortname": "develop-content"
+        }
+    ]
+}

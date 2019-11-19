@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--f7ce52c0-1ae0-4fad-b066-0668d41cdb3b",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--91615350-bbb6-4d5d-8618-7ac5d82d71ce",
+            "created_by_ref": "identity--a5a9745d-e74d-4219-8e68-e76635e22c4d",
+            "created": "2019-11-19T03:31:45.902Z",
+            "modified": "2019-11-19T03:31:45.902Z",
+            "name": "Create fake websites",
+            "description": "Create media assets to support fake organizations (e.g. think tank), people (e.g. experts) and/or serve as sites to distribute malware/launch phishing operations.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-networks"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0013.md",
+                    "external_id": "T0013"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--2b04b255-1c05-4cbc-aafe-013fb5980a6b"
+            ],
+            "x_mitre_platforms": [
+                [
+                    "Cyber",
+                    "Physical"
+                ]
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}

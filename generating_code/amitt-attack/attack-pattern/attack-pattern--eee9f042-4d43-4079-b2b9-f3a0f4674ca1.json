@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--73b6ba14-759b-405a-a8dc-b90192ffa2fe",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--eee9f042-4d43-4079-b2b9-f3a0f4674ca1",
+            "created_by_ref": "identity--a5a9745d-e74d-4219-8e68-e76635e22c4d",
+            "created": "2019-11-19T03:31:45.906Z",
+            "modified": "2019-11-19T03:31:45.906Z",
+            "name": "Adapt existing narratives",
+            "description": "Adapting existing narratives to current operational goals is the tactical sweet-spot for an effective misinformation campaign. Leveraging existing narratives is not only more effective, it requires substantially less resourcing, as the promotion of new master narratives operates on a much larger scale, both time and scope. Fluid, dynamic & often interchangeable key master narratives can be (\"The morally corrupt West\") adapted to divisive (LGBT propaganda) or to distort (individuals working as CIA operatives). For Western audiences, different but equally powerful framings are available, such as \"USA has a fraught history in race relations, especially in criminal justice areas.\"",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-content"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0027.md",
+                    "external_id": "T0027"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--2b04b255-1c05-4cbc-aafe-013fb5980a6b"
+            ],
+            "x_mitre_platforms": [
+                [
+                    "Cyber",
+                    "Physical"
+                ]
+            ],
+            "x_mitre_version": "1.0"
+        }
+    ]
+}
