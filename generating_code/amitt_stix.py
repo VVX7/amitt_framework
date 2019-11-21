@@ -239,10 +239,7 @@ class AmittStix:
                 }
             ]
             name = f'{tech[1]}'
-            x_mitre_platforms = [
-                                 "Cyber",
-                                 "Physical"
-                                ],
+            x_mitre_platforms = 'cyber', 'physical',
             x_mitre_version = '1.0'
 
             technique = AttackPattern(
@@ -589,7 +586,7 @@ def main():
 
     # print(stix_maker.stix_bundle())
 
-    stix_maker.make_cti_file(stix_maker.stix_objects, bundle_name='amitt_attack')
+    stix_maker.make_cti_file(stix_maker.stix_objects, bundle_name='amitt-attack')
 
 if __name__ == '__main__':
     main()
